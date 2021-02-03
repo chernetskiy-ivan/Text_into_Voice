@@ -5,9 +5,10 @@ function speak(text) {
     window.speechSynthesis.speak(message);
 }
 
-const btnSpeak = document.querySelector('#speak')
-const txtMessage = document.querySelector('#message')
+const btn = document.querySelector('.btn')
 
-btnSpeak.addEventListener('click', () => {
-    speak(txtMessage.value);
+btn.addEventListener('click', () => {
+    speak(document.querySelector('.text').value)
 })
+
+btn.onpause
