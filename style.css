@@ -3,13 +3,36 @@
 }
 
 body {
-    font-size: 16px;
-    font-family: sans-serif;
+    background-color: aqua;
+}
+
+.intro {
+    width : 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Sriracha', cursive;
 }
 
 button {
+    width: 20%;
     padding: .5rem 1rem;
     background-color: #008cba;
-    font-size: 1rem;
+    font-size: 50px;
     color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+button:hover{
+    color: red;
+    background-color: black;
+}
+
+input {
+    width: 50%;
+
+    margin-top: 50px;
+    margin-left: 25%;
 }
